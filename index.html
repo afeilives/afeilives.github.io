@@ -287,6 +287,282 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/07/25/Java基础面试（一）/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="阿 飞">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="学无前后，达者为师">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2017/07/25/Java基础面试（一）/" itemprop="url">
+                  Java基础面试（一）
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-07-25T18:27:13+08:00">
+                2017-07-25
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <ol>
+<li><p><strong>ArraryList和linkList的区别</strong><br> 1）ArrayList是实现了基于数组的数据结构，LinkList基于链表的数据结构<br> 2）对于随机访问get和set，ArrayList优于LinkList，因为LinkList要移动指针。<br> 3）对于新增和删除操作add和remove，linkList比较占优势，因为ArrayList要移动数据</p>
+</li>
+<li><p><strong>hashmap和hashtable的区别</strong>  </p>
+</li>
+<li><strong>写一个线程安全的单利模式</strong>  </li>
+<li><strong>String、StringBuffer、StringBuilder的区别</strong></li>
+<li><strong>谈谈SpringMVC的工作原理</strong></li>
+</ol>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/05/31/mysql基础（一）/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="阿 飞">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="学无前后，达者为师">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2017/05/31/mysql基础（一）/" itemprop="url">
+                  mysql基础（一）
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-05-31T13:00:57+08:00">
+                2017-05-31
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/数据库/" itemprop="url" rel="index">
+                    <span itemprop="name">数据库</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p><strong>1. 如何连接mysql数据库？</strong><br>答案：连接到MySQL数据库有多种写法，假设MySQL服务器的地址为192.168.59.130，可以通过如下几种方式来连接MySQL数据库:<br>（1）mysql -p<br>（2）mysql -uroot -p<br>（3）mysql -uroot -h你的mysql服务器地址 -p</p>
+<p><strong>2. 哪个命令可以查看所有数据库？</strong><br>答案：运行命令 ：show databases;  </p>
+<p><strong>3. 如何切换到某个特定的数据库？</strong><br>答案：运行命令：use database_name;</p>
+<p><strong>4. 列出数据库内所有的表？</strong><br>答案：在当前数据库运行命令：show tables；</p>
+<p><strong>5. 如果mysql密码丢了，如何找回密码？</strong><br>答案：步骤如下：<br>（1）关闭MySQL，/data/3306/mysql stop或pkill mysqld。<br>（2）mysqld_safe –defaults-file=/data/3306/my.cnf –skip-grant-table &amp;<br>（3）mysql -uroot -p -S /data/3306/mysqlsock ，按ENTER进入。<br>（4）修改密码，UPDATE mysql.user SET password=PASSWORD(“oldlhr123”) WHERE user=’root’ and host=’localhost’;。  </p>
+<p><strong>6. 如何不进入MySQL客户端，执行一条SQL命令，帐号User，密码Passwd，库名DBName，SQL为SELECT sysdate();</strong><br>答案：采用-e选项。命令为:mysql -uUser -pPasswd -D DBName -e “SELECT sysdate();”  </p>
+<p><strong>7. 用哪些命令可以查看MySQL数据库中的表结构？</strong><br>答案：查看mysql表结构的命令有如下几种：<br>（1）</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/02/18/java基础知识（二）/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -702,7 +978,7 @@ return 返回值；
           
             <div class="site-state-item site-state-posts">
               <a href="/archives">
-                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-count">4</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
@@ -713,7 +989,7 @@ return 返回值；
             
             <div class="site-state-item site-state-categories">
               <a href="/categories/index.html">
-                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-count">2</span>
                 <span class="site-state-item-name">分类</span>
               </a>
             </div>
@@ -724,7 +1000,7 @@ return 返回值；
             
             <div class="site-state-item site-state-tags">
               <a href="/tags/index.html">
-                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-count">3</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
